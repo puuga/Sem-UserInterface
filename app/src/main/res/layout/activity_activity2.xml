@@ -6,13 +6,23 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.example.siwaweswongcharoen.sem_userinterface.SettingActivity">
+    tools:context="com.example.siwaweswongcharoen.sem_userinterface.Activity2">
 
     <TextView
-        android:text="@string/activity_setting"
+        android:text="@string/activity_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
-        android:gravity="center_horizontal" />
+        android:gravity="center_horizontal"
+        android:id="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_go_activity3"
+        android:id="@+id/btn_go_activity3"
+        android:onClick="goActivity3"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
